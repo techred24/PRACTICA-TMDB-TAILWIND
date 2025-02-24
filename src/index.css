@@ -1,0 +1,33 @@
+@import "tailwindcss";
+@utility bg-play {
+  background-image: url('/src/assets/images/play.svg');
+}
+@utility bg-following-icon {
+  background-image: url('/src/assets/images/following-list.svg');
+}
+@utility bg-heart-icon {
+  background-image: url('/src/assets/images/heart.svg');
+}
+@utility bg-list-icon {
+  background-image: url('/src/assets/images/list.svg');
+}
+@utility bg-info-icon {
+  background-image: url('/src/assets/images/info-icon.svg');
+}
+@utility font-arial {
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* width: 100vw; */
+}
+[class$='container'] {
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+}
+#root {
+  width: 100%;
+}
